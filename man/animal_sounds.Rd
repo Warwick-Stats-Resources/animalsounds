@@ -15,7 +15,7 @@ animal_sounds(animal, sound)
 A string, conveying the sound the animal makes.
 }
 \description{
-Uses \code{\link[=select]{select()}} to create a sentence stating the sound that the animal makes.
+Uses \code{\link[=paste0]{paste0()}} to create a sentence stating the sound that the animal makes.
 }
 \examples{
 animal_sounds("dog", "woof")
