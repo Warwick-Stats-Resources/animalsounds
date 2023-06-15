@@ -13,8 +13,26 @@ animal_sounds <- function(animal, sound) {
   #stopifnot(is.character(animal) & length(animal) == 1)
   #stopifnot(is.character(sound) & length(sound) == 1)
 
-  rlang::is_character(animal, 1)
-  rlang::is_character(sound, 1)
+  if (!rlang::is_character(animal, 1)) {
+    cli::cli_abort(c("{.var animal} must be a single string!",
+                     "i" = "It was {.type {animal}} of length {length(animal)} instead."
+                     ),
+                   class = "error_not_single_string")
+  }
+
+  if (!rlang::is_character(sound, 1)) {
+    cli::cli_abort(c("{.var sound} must be a single string!",
+                     "i" = "It was {.type {sound}} of length {length(sound)} instead."
+    ),
+    class = "error_not_single_string")
+  }
+
+  # if (!rlang::is_character(sound, 1)) {
+  #   cli::cli_abort(c("{.var sound} must be a {.cls character} vector of length 1!",
+  #                    "i" = "It was {.type {sound}} of length {length(sound)} instead."
+  #   ),
+  #   class = "error_not_single_string")
+  # }
 
   paste0("The ", animal, " goes ", sound, "!")
 }
