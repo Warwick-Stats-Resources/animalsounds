@@ -4,9 +4,9 @@
 \name{mypackage-package}
 \alias{mypackage}
 \alias{mypackage-package}
-\title{mypackage: What the Package Does (One Line, Title Case)}
+\title{mypackage: Sounds That Animals Make}
 \description{
-What the package does (one paragraph).
+Tells us what sounds animals make.
 }
 \seealso{
 Useful links:
@@ -17,7 +17,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Ella Kaye \email{ella.m.kaye@warwick.ac.uk}
 
 }
 \keyword{internal}
