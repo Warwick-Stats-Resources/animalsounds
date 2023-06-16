@@ -8,6 +8,9 @@
 [![R-CMD-check](https://github.com/Warwick-Stats-Resources/mypackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Warwick-Stats-Resources/mypackage/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
+**THIS IS A TOY PACKAGE CREATED FOR THE [ADVANCED R AND R PACKAGES
+WORKSHOP](https://github.com/Warwick-Stats-Resouces/advanced-r-packages)**
+
 The goal of **mypackage** is to tells us what sounds animals make.
 
 ## Installation
