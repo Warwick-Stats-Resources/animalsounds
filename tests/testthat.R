@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(mypackage)
+library(animalsounds)
 
-test_check("mypackage")
+test_check("animalsounds")
