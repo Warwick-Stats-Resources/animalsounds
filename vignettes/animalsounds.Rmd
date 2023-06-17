@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(mypackage)
+library(animalsounds)
 ```
 
 When given the name of an animal as a single string and the sound it makes as a single string, the `animal_sounds()` function will return a string combining them as a short sentence:
