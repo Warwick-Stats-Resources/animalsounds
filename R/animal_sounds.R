@@ -22,7 +22,7 @@ animal_sounds <- function(animal, sound = NULL) {
   }
 
   if (is.null(sound)){
-    return("The giraffe makes no sound.")
+    return(paste0("The ", animal, " makes no sound."))
   }
 
   if (!rlang::is_character(sound, n = 1)) {
