@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/Warwick-Stats-Resources/animalsounds/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Warwick-Stats-Resources/animalsounds/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of animalsounds is to link animals with their sounds.
+The goal of animalsounds is to link animals with their sounds. It includes a function and a dataset.
 
 ## Installation
 
