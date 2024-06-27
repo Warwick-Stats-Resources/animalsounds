@@ -12,6 +12,7 @@ Connects animals with their sounds.
 Useful links:
 \itemize{
   \item \url{https://github.com/Warwick-Stats-Resources/animalsounds}
+  \item \url{https://warwick-stats-resources.github.io/animalsounds/}
   \item Report bugs at \url{https://github.com/Warwick-Stats-Resources/animalsounds/issues}
 }
 
