@@ -1,6 +1,6 @@
 Package: animalsounds
 Title: Links Animals to their Sounds
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Ella", "Kaye", , "ella.m.kaye@warwick.ac.uk", role = c("aut", "cre"))
 Description: Connects animals with their sounds.
