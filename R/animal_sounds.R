@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' animals_sounds("dog", "woof")
+#' animal_sounds("dog", "woof")
 animal_sounds <- function(animal, sound = NULL) {
 
   if (!rlang::is_character(animal, n = 1)) {
