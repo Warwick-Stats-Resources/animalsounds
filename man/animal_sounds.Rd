@@ -19,5 +19,5 @@ Prints what the animal says \emph{(the sound it makes)} in the console, using
 \code{\link[=paste0]{paste0()}}.
 }
 \examples{
-animals_sounds("dog", "woof")
+animal_sounds("dog", "woof")
 }
